@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1e75f7228b.js" crossorigin="anonymous"></script>
+    <title>Good Things Foundation</title>
+  </head>
+  <body class = "body">
+    <header class = "header">
+      <form class = 'search-form'>
+        <label class = 'search-form__icon' for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+        <input class = 'search-form__input' type="search" id="search" name="search" placeholder="Search">
+      </form>
+
+      <button class = 'mode-button mode-button--white' type="button">Learn</button>
+      <button class = 'mode-button mode-button--red' type="button">Donate</button>
+      <img class = "logo" src="logo.png" alt="Good Things Foundation Logo">
+
+      <nav class = "navbar navbar--style" aria-label="primary">
+        <span class = "navbar__element">
+          <span class = "navbar__element navbar__element--burger"><i class="fa fa-bars"></i>
+          <span class = "navbar__element navbar__element--cross" ><i class="fa fa-x"></i></span>
+          </span>
+        <ul class = "navbar__list navbar__list--style">
+          <li class = "navbar__item" ><a class = "navbar__anchor navbar__anchor--style" href="#">Home</a></li>
+          <li class = "navbar__item" ><a class = "navbar__anchor navbar__anchor--style" href="#">What to do</a></li>
+          <li class = "navbar__item" ><a class = "navbar__anchor navbar__anchor--style" href="#">The Digital Divide</a></li>
+          <li class = "navbar__item" ><a class = "navbar__anchor navbar__anchor--style" href="#">Get Involved</a></li>
+          <li class = "navbar__item" ><a class = "navbar__anchor navbar__anchor--style" href="#">Our Network</a></li>
+          <li class = "navbar__item" ><a class = "navbar__anchor navbar__anchor--style" href="#">Insights</a></li>
+        </ul>
+        </span>
+      </nav>
+
+    </header>
+
+    <main class = "main-content">
+
+      <section class = "hero" aria-labelledby="get-online-week">
+        <h1 class = "hero__heading" id="get-online-week">Get online week 2021</h1>
+          <p class = "hero__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button class = "hero__button" type="button">Get involved now!</button>
+        </section>
+
+        <section class = "headline-box headline-box--image"></section>
+
+        <section class = "headline-box headline-box--blue" aria-labelledby="social-change-charity">
+          <h1 class = "headline-box__heading" id="social-change-charity">
+            We are a social change charity, helping people to improve their lives
+            through digital.
+          </h1>
+          <p class = "headline-box__text">We tackle the most pressing issues of our time, working with partners in thousands 
+          of communities accross the UK and further afield.</p>
+          <button class = "headline-box__button" type="button">Learn more about us</button>
+        </section>
+
+        <section class = "help-box" aria-labelledby="how-can-we-help">
+          <h1 class = "help-box__heading" id="how-can-we-help">How can we help you?</h1>
+          <p class = "help-box__text">
+            Let us know who you are and what you're looking for, 
+            and we'll help you get to the right place.
+          </p>
+
+          <form class ="help-box__form" id="i-form">
+            <label class ="help-box__label" for="i-am">I am</label>
+              <select class ="help-box__select" id="i-am" form="i-form">
+                <option value="individual">an individual</option>
+                <option value="organisation">an organisation</option>
+                <option value="group">a group</option>
+                <option value="journalist">a journalist</option>
+              </select>
+              <label class ="help-box__label" for="i-want">and I want</label>
+              <select class ="help-box__select" id="i-want" form=i-form">
+                <option value="learn">to learn</option>
+                <option value="volunteer">to get advice</option>
+                <option value="volunteer">to volunteer</option>
+                <option value="contact">to speak to someone</option>
+              </select>
+              <button class ="help-box__button help-box__button--red" type="button">Start now</button>
+          </form>
+
+        </section>
+
+    </main>
+
+    <section class = "about-us" aria-labelledby="what-do-we-do">
+      <h1 id="what-do-we-do" class = "about-us__heading">
+        What do we do?
+      </h1>
+      <p class = "about-us__text">You might not have heard of us, but we're the people behind
+        the following impactful programmes.</p>
+        <div class = "about-us__container">
+        <div class = "about-us__card">
+          <h2>Get online week</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+          <button class = "about-us__button about-us__button--red" type="button">Read more</button>
+        </div>
+        <div class = "about-us__card">
+          <h2>Learn my way</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+          <button class = "about-us__button about-us__button--red" type="button">Read more</button>
+        </div>
+        <div class = "about-us__card">
+          <h2>Make it click</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+          <button class = "about-us__button about-us__button--red" type="button">Read more</button>
+        </div>
+        <div class = "about-us__card">
+          <h2>Digital you</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+          <button class = "about-us__button about-us__button--red" type="button">Read more</button>
+        </div>
+      </div>
+      <button class = "about-us__button about-us__button--red about-us__button--borderless" type="button">More about what we do</button>
+    </section>
+
+  </body>
+</html>
